@@ -1,0 +1,17 @@
+30  200  30 70 1.0035 1.0035 1.0
+# t0, t1, t2, t3, eb, ec, es
+# decrease t0 to increase the rate of warping
+# increase t1 to increase the radius of warped region
+# decrease t2 to increase the whirlpool speed, negative to reverse
+# increase t3 to increase the whirlpool radius
+#inception_3b/output googlenet 27 5 2.5
+#inception_3a/output googlenet_places205 7 5 2.5
+#inception_4b/output googlenet 7 5 2.5
+#inception_4b/output googlenet_places205 10 5 2.5
+#inception_5a/pool googlenet 7 5 1.5
+#inception_3a/output googlenet 7 5 2.8
+#inception_5a/output googlenet_places205 24 5 1.5
+#inception_5b/output googlenet 28 5 1.5
+inception_4d/3x3 googlenet 8 5 2.4
+inception_3b/3x3_reduce googlenet 4 5 2.2
+# end, model, iter_n, octave_n, octave_scale
